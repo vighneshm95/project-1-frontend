@@ -1,4 +1,4 @@
-const API_BASE_URL = (import.meta.env.VITE_API_URL || 'http://localhost:5000').replace(/\/+$/, '')
+const API_BASE_URL = 'https://leave-backend-aqdpg8f9bydpa4gr.indiasouthcentral-01.azurewebsites.net/'
 const SESSION_KEY = 'daywell-session'
 const VALID_ROLES = new Set(['employee', 'manager', 'admin'])
 
